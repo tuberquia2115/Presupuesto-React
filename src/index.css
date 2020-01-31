@@ -5,8 +5,8 @@ body {
   background: #000428;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #004e92, #000428);  
   background: linear-gradient(to right, #004e92, #000428); 
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 5px;
   font-family: sans-serif;
 }
 header {

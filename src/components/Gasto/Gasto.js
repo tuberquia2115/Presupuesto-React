@@ -6,7 +6,7 @@ const Gastos = ({ gasto }) => (
         <p style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around' }}>
             {gasto.nombre}
             <span className="gasto">${gasto.cantidad}</span>
-            {gasto.img === true ?
+            {gasto.img !== "" ?
                 <img alt="imagen" width="100" height="100" src={gasto.img} />
                 : null}
         </p>

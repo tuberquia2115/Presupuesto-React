@@ -7,7 +7,7 @@ const Formulario = ({ guardarGasto, guardarCrearGasto }) => {
     const [nombre, guardarNombre] = useState('');
     const [cantidad, guardarCantidad] = useState(0);
     const [error, guardarError] = useState(false);
-    const [img, guardarImg] = useState(null);
+    const [img, guardarImg] = useState('');
 
     const capturarIMG = (e) => {
         if (e.target.files && e.target.files[0]) {
